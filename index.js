@@ -72,7 +72,8 @@ module.exports = {
     files: ['*.wxs'],
     rules: {
       'no-var': 'off',
-      'object-shorthand': 'off'
+      'object-shorthand': 'off',
+      'prefer-template': 'off'
     }
   }]
 }
