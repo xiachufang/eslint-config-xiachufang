@@ -57,6 +57,7 @@ module.exports = {
     'prefer-rest-params': 'error',
     'prefer-template': 'error',
     'quote-props': ['error', 'as-needed'],
+    'require-atomic-updates': 'off',
     'require-await': 'error',
     camelcase: 'off',
     radix: 'error'
