@@ -36,7 +36,8 @@ module.exports = {
     'import/newline-after-import': 'error',
     'import/no-extraneous-dependencies': 'error',
     'import/no-named-as-default': 'off',
-    'import/order': 'error',
+    'import/order': ['error', { groups: [['builtin'], ['external', 'internal'], ['parent', 'sibling', 'index']] }
+    ],
     'no-console': isProd ? 'error' : 'off',
     'no-debugger': isProd ? 'error' : 'off',
     'no-else-return': 'error',
